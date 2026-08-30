@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — HCCO</title>
+<meta name="description" content="Get in touch with Heaven Children Care Organization.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-wrap">
+    <a href="index.html" class="logo"><span class="logo-mark">HC</span> HCCO</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programs.html">Our Programs</a></li>
+      <li><a href="impact.html">Our Impact</a></li>
+      <li><a href="get-involved.html">Get Involved</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html" class="btn btn-accent">Donate</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you — questions, partnerships, volunteering, or support.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container grid grid-2">
+    <div>
+      <h2>Send a Message</h2>
+      <!--
+        TODO (Ugochi): Replace YOUR_FORM_ID below with your real Formspree form ID.
+        1. Create a free account at https://formspree.io
+        2. Create a new form, copy its endpoint (looks like https://formspree.io/f/xxxxxxx)
+        3. Replace the form action below with that URL.
+      -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="reason">Reason for Contact</label>
+          <input type="text" id="reason" name="reason" placeholder="Volunteering, partnership, donation question, etc.">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <p class="placeholder-note" style="margin-top:12px;">Form is not yet connected — needs a real Formspree form ID before launch.</p>
+    </div>
+
+    <div>
+      <h2>Contact Details</h2>
+      <div class="card" style="margin-bottom:20px;">
+        <h3>Email</h3>
+        <p><a href="mailto:info@heavenchildrencare.org">info@heavenchildrencare.org</a></p>
+      </div>
+      <div class="card" style="margin-bottom:20px;">
+        <h3>Phone</h3>
+        <p><a href="tel:+2348139128737">+234 813 912 8737</a></p>
+      </div>
+      <div class="card" style="margin-bottom:20px;">
+        <h3>Location</h3>
+        <p>[Placeholder — add HCCO's location / address or service area.]</p>
+      </div>
+      <div class="card">
+        <h3>Follow Us</h3>
+        <p>
+          <a href="#" target="_blank" rel="noopener">[Facebook — add link]</a><br>
+          <a href="#" target="_blank" rel="noopener">[Instagram — add link]</a><br>
+          <a href="#" target="_blank" rel="noopener">[X / Twitter — add link]</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span class="logo-mark">HC</span> HCCO</div>
+        <p>Heaven Children Care Organization is a faith-rooted nonprofit dedicated to nourishing, supporting, and empowering vulnerable children and families through food assistance, education, care, and community partnerships.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Our Programs</a>
+        <a href="impact.html">Our Impact</a>
+        <a href="get-involved.html">Get Involved</a>
+        <a href="donate.html">Donate</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:info@heavenchildrencare.org">info@heavenchildrencare.org</a>
+        <a href="tel:+2348139128737">+234 813 912 8737</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Heaven Children Care Organization (HCCO). All rights reserved.</span>
+      <span>Registered nonprofit — CAC registration number to be added.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
